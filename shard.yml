@@ -1,0 +1,18 @@
+name: g_sheets_api
+version: 0.1.0
+
+authors:
+  - Marouen Bousnina <7128972+Maroo-b@users.noreply.github.com>
+
+targets:
+  g_sheets_api:
+    main: src/g_sheets_api.cr
+
+dependencies:
+  google-auth:
+    github: cyangle/google-auth
+    version: ~> 0.1.1
+
+crystal: ">= 1.16.3"
+
+license: MIT
